@@ -1,5 +1,5 @@
 <?php
-include 'engine/db/connect.php';
+include '../db/connect.php';
 session_start();
 
 $username = $_POST['username'];
@@ -12,7 +12,7 @@ if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     if (password_verify($password, $row['password'])) {
         $_SESSION['username'] = $username;
-        header("Location: admin.php");
+        header("Location: ../admin.php"); // Ubah ke admin.php di folder engine
     } else {
         echo "Invalid password";
     }
