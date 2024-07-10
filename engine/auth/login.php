@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Login</h2>
-    <form action="authenticate.php" method="POST">
+    <form action="auth.php" method="POST">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
 
