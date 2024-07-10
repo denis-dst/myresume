@@ -18,7 +18,7 @@
         <input type="submit" value="Login" class="submit-button">
     </form>
 </body>
-<script src="../../js/d3v6.min.js"></script>
+<script src="../../js/d3.v6.min"></script>
 <script src="../../js/all.js"></script>
 <script src="../../js/scripts.js"></script>
 </html>
