@@ -14,6 +14,7 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - Manage Resume</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h2>Manage Resume</h2>
@@ -115,4 +116,7 @@ if (!isset($_SESSION['username'])) {
     </form>
 
 </body>
+<script src="js/d3v6.min.js"></script>
+<script src="js/all.js"></script>
+<script src="js/scripts.js"></script>
 </html>
