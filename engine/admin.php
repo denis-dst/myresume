@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
     <title>Admin - Manage Resume</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body id="page-top">
     <h2>Manage Resume</h2>
     <p>Welcome, <?php echo $_SESSION['username']; ?> | <a href="logout.php">Logout</a></p>
     <!-- Formulir untuk Experience -->
